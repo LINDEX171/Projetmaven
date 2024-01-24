@@ -1,0 +1,13 @@
+pipelne{
+
+    agent any
+
+    stages{
+
+        stage('Git Checkout'){
+            steps{
+                git 'https://github.com/LINDEX171/Projetmaven.git'
+            }
+        }
+    }
+}
